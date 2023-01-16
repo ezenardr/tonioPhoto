@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    color: #f6f6f6;
+}
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+li {
+    list-style: none;
+}
+.link:link{
+    text-decoration: none;
+}
+.link-active{
+    color: blue !important;
+}
+
+/* ///////////////////////////////////////////
+-----------------HERO SECTION--------------
+/////////////////////////////////////////////// */
+.header {
+    background-color: #000;
+    height: 100vh;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+.logo {
+    /* background-color: burlywood; */
+    width: 16rem;
+}
+.nav-links,
+.nav-social-links {
+    display: flex;
+    gap: 4rem;
+    font-size: 1.8rem;
+}
+.nav-link{
+    color: #f6f6f6;
+}
+.nav-icon{
+    width: 2.4rem;
+    height: 2.4rem;
+    color: #f6f6f6;
+}
