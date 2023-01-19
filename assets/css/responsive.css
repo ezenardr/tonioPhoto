@@ -1,6 +1,6 @@
-@media(max-width:1000px){
+@media(max-width:1100px){
     html{
-        font-size: 50%;
+        font-size: 55%;
     }
     .navbar{
         padding: 2rem 2rem;
