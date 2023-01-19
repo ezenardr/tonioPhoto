@@ -129,6 +129,11 @@ li {
     width: 2.4rem;
     height: 2.4rem;
 }
+.menu{
+    display: none;
+    width: 3.8rem;
+    height: 3.8rem;
+}
 .hero-title {
     font-size: 4rem;
     font-weight: 700;
