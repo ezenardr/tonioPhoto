@@ -82,9 +82,6 @@ li {
 /* ///////////////////////////////////////////
 -----------------HERO SECTION--------------
 /////////////////////////////////////////////// */
-.header {
-    height: 90vh;
-}
 .navbar {
     display: flex;
     align-items: center;
@@ -176,7 +173,7 @@ li {
 .about-text-box {
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 1.8rem;
     width: 100%;
     border-radius: 9px;
     background-color: #e5e0d8a7;
@@ -185,7 +182,7 @@ li {
     padding: 2rem;
 }
 .about-title {
-    font-size: 3rem;
+    font-size: 2.4rem;
     color: #000;
 }
 .about-text {
