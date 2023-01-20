@@ -246,6 +246,7 @@ li {
 .testimonial-author{
     color: #1c1c1c;
     font-size: 1.4rem;
+    padding-top: 2rem;
 }
 
 /* ///////////////////////////////////////////
@@ -254,7 +255,7 @@ li {
 /* .section-contact{
 } */
 .contacts-box{
-    margin-top: 4rem;
+    margin-top: 0rem;
     display: flex;
     gap: 2rem;
     justify-content: space-around;
@@ -283,7 +284,7 @@ li {
 -----------------FOOTER SECTION--------------
 /////////////////////////////////////////////// */
 .footer{
-    margin-top: 4rem;
+    margin-top: 9rem;
     padding: 1rem ;
 }
 .footer-text{

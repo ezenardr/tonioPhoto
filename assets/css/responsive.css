@@ -1,23 +1,131 @@
-@media(max-width:1100px){
-    html{
+@media (max-width: 1100px) {
+    html {
         font-size: 55%;
     }
-    .navbar{
+    .navbar {
         padding: 2rem 2rem;
     }
-    .logo{
+    .logo {
         width: 12rem;
     }
-    .hero-img-box{
+    .hero-img-box {
         display: flex;
         justify-content: center;
+        height: auto;
     }
-    .hero-img{
-        width: 75%;
+    .hero-img {
+        height: 70%;
+    }
+    .section-about{
+        padding-top: 0;
     }
 }
-@media(max-width:900px){
-    html{
+@media (max-width: 900px) {
+    html {
         font-size: 45%;
+    }
+    .testimonials-box{
+        gap: 5rem;
+    }
+}
+@media (max-width: 800px) {
+    html {
+        font-size: 40%;
+    }
+    .section-heading-box{
+        max-width: 80rem;
+    }
+    .nav-links,
+    .nav-social-links {
+        display: none;
+    }
+    .navbar {
+        padding: 2rem 5rem;
+    }
+    .menu {
+        display: block;
+    }
+    .section {
+        padding-top: 15rem;
+    }
+    .gallery {
+        width: 70%;
+        align-items: center;
+        gap: 1rem;
+        height: auto;
+    }
+    .gallery-img-2 {
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+    .gallery-img-5 {
+        grid-row: 1/2;
+        grid-column: 3/4;
+    }
+    .gallery-img-4,
+    .gallery-img-6 {
+        transform: none;
+    }
+}
+
+@media (max-width: 700px) {
+    html {
+        font-size: 35%;
+    }
+}
+@media(max-width:600px){
+    html{
+        font-size: 30%;
+    }
+    .container--2{
+        max-width: 90rem;
+    }
+    .about-text-box{
+        height: 60%;
+        overflow: scroll;
+    }
+    .section-hero{
+        height: 50vh;
+        /* display: flex; */
+    }
+    .hero-img{
+        height: 50%;
+    }
+}
+@media(max-width:450px){
+    html{
+        font-size: 25%;
+    }
+    .hero-img{
+        height: 40%;
+    }
+    .testimonials-box{
+        grid-template-columns: 1fr;
+    }
+    .testimonial{
+        width: 50%;
+        justify-self: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border-radius: 9px;
+    }
+    .testimonial-text{
+        transform: none;
+        text-align: initial;
+    }
+    .testimonial-img{
+        width: 70%;
+        border: none;
+        transform: none;
+        justify-self: center;
+    }
+}
+@media(max-width:300px){
+    html{
+        font-size: 20%;
+    }
+    .contacts-box{
+        gap: 1rem;
+        justify-content: space-between;
     }
 }
