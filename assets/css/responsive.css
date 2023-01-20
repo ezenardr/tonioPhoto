@@ -151,7 +151,7 @@
         justify-content: space-between;
     }
     .btn-contact {
-        align-self: center;
+        align-self: flex-start;
     }
     .about-box {
         display: flex;
