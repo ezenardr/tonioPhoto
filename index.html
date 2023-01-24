@@ -15,16 +15,17 @@
         />
     </head>
     <body>
-        <header class="header">
-            <nav class="navbar container">
-                <img
+        <div class="navigation container">
+            <a href="#" class="logo-link"
+                ><img
                     src="/assets/img/logo.png"
                     alt="Logo of Tonio Photography"
                     class="logo"
-                />
+            /></a>
+            <nav class="navbar">
                 <ul class="nav-links">
                     <li>
-                        <a href="#" class="nav-link link link-active">Home</a>
+                        <a href="#home" class="nav-link link">Home</a>
                     </li>
                     <li>
                         <a href="#about" class="nav-link link">About</a>
@@ -41,7 +42,7 @@
                         <a href="#contact" class="nav-link link">Contact Us</a>
                     </li>
                 </ul>
-                <ul class="nav-social-links">
+                <ul class="nav-social-links nav-social-links-mobile">
                     <li>
                         <a href="#" class="nav-social-link">
                             <img
@@ -61,18 +62,39 @@
                         </a>
                     </li>
                 </ul>
-                <button class="btn-mobile-nav">
-                    <ion-icon
-                        name="close-outline"
-                        class="icon-mobile-nav icon-mobile-nav-close"
-                    ></ion-icon>
-                    <ion-icon
-                        name="menu-outline"
-                        class="icon-mobile-nav icon-mobile-nav-open"
-                    ></ion-icon>
-                </button>
             </nav>
-
+            <ul class="nav-social-links">
+                <li>
+                    <a href="#" class="nav-social-link">
+                        <img
+                            src="/assets/img/icons/instagram.svg"
+                            alt="logo of instragram"
+                            class="icon nav-icon"
+                        />
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-social-link">
+                        <img
+                            src="/assets/img/icons/whatsapp.svg"
+                            alt="logo of whatsapp"
+                            class="icon nav-icon"
+                        />
+                    </a>
+                </li>
+            </ul>
+            <button class="btn-mobile-nav">
+                <ion-icon
+                    name="close-outline"
+                    class="icon-mobile-nav icon-mobile-nav-close"
+                ></ion-icon>
+                <ion-icon
+                    name="menu-outline"
+                    class="icon-mobile-nav icon-mobile-nav-open"
+                ></ion-icon>
+            </button>
+        </div>
+        <header class="header" id="home">
             <section class="section-hero grid grid--2--cols container--2">
                 <div class="hero-text-box">
                     <h1 class="hero-title">

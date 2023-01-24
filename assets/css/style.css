@@ -78,15 +78,25 @@ li {
     letter-spacing: 1px;
     line-height: 1.5;
 }
-
 /* ///////////////////////////////////////////
------------------HERO SECTION--------------
+-----------------NAVIGATION SECTION--------------
 /////////////////////////////////////////////// */
-.navbar {
+.navigation{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 2rem;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* margin: 0 auto !important; */
 }
 .logo {
     width: 16rem;
@@ -96,6 +106,9 @@ li {
     display: flex;
     gap: 4rem;
     font-size: 1.8rem;
+}
+.nav-social-links-mobile{
+    display: none;
 }
 .nav-link {
     color: var(--text-color);
@@ -126,15 +139,11 @@ li {
     width: 2.4rem;
     height: 2.4rem;
 }
-.header {
-    position: relative;
-}
 .btn-mobile-nav {
     border: none;
     background: none;
     cursor: pointer;
     display: none;
-    position: absolute;
     top: 2rem;
     right: 5rem;
 }
@@ -146,6 +155,11 @@ li {
 .icon-mobile-nav[name="close-outline"] {
     display: none;
 }
+/* ///////////////////////////////////////////
+-----------------HERO SECTION--------------
+/////////////////////////////////////////////// */
+
+
 
 .wrapper{
     height: 100vh;

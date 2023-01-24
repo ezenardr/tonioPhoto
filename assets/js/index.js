@@ -2,6 +2,7 @@
 
 const navLinks = document.querySelector(".nav-links");
 const contactBtn = document.querySelector(".btn-contact");
+const navigation = document.querySelector(".navigation");
 const navBar = document.querySelector(".navbar");
 const btnOpen = document.querySelector(".icon-mobile-nav-open");
 const btnClose = document.querySelector(".icon-mobile-nav-close");
@@ -13,20 +14,31 @@ const scrollFunc = function (e) {
     // console.log(clicked);
     if (!clicked) return;
     document.querySelector(clicked).scrollIntoView({ behavior: "smooth" });
-    navBar.classList.remove("nav-open");
+    navigation.classList.remove("nav-open");
     wrapper.classList.add("hidden");
 };
 navLinks.addEventListener("click", scrollFunc);
 contactBtn.addEventListener("click", scrollFunc);
 
 // Mobile Navigation
-
 btnOpen.addEventListener("click", () => {
     // console.log('ok');
-    navBar.classList.add("nav-open");
-    wrapper.classList.remove("hidden");
+    navigation.classList.add("nav-open");
+    // wrapper.classList.remove("hidden");
 });
 btnClose.addEventListener("click", () => {
-    navBar.classList.remove("nav-open");
-    wrapper.classList.add("hidden");
+    navigation.classList.remove("nav-open");
+    // wrapper.classList.add("hidden");
 });
+
+// // sticky Navigation
+// let topPage = navigation.offsetTop;
+// const stickyNavBar = function () {
+//     if (window.scrollY > topPage) {
+//         navigation.classList.add("sticky");
+//         // console.log('ko');
+//     } else {
+//         navigation.classList.remove("sticky");
+//     }
+// };
+// window.addEventListener("scroll", stickyNavBar);
