@@ -92,7 +92,7 @@
     }
     .nav-social-links-mobile{
         display: flex  !important;
-        padding-bottom: 10rem;
+        padding-bottom: 30rem;
     }
     .nav-social-links-mobile .nav-icon{
         width: 5rem;
