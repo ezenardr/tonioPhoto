@@ -64,7 +64,8 @@
     .navbar {
         display: flex;
         flex-direction: column;
-        gap: 12rem !important;
+        /* gap: 12rem !important; */
+        justify-content: space-between !important;
         background-color: var(--background-color);
         position: absolute;
         top: 10%;
@@ -82,6 +83,7 @@
         visibility: hidden;
     }
     .nav-links {
+        justify-self: start;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -90,6 +92,7 @@
     }
     .nav-social-links-mobile{
         display: flex  !important;
+        padding-bottom: 10rem;
     }
     .nav-social-links-mobile .nav-icon{
         width: 5rem;
@@ -217,5 +220,9 @@
     }
     .nav-links {
         font-size: 2rem;
+    }
+    .nav-social-links-mobile .nav-icon{
+        width: 3rem;
+        height: 3rem;
     }
 }
