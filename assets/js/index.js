@@ -31,14 +31,14 @@ btnClose.addEventListener("click", () => {
     // wrapper.classList.add("hidden");
 });
 
-// // sticky Navigation
-// let topPage = navigation.offsetTop;
-// const stickyNavBar = function () {
-//     if (window.scrollY > topPage) {
-//         navigation.classList.add("sticky");
-//         // console.log('ko');
-//     } else {
-//         navigation.classList.remove("sticky");
-//     }
-// };
-// window.addEventListener("scroll", stickyNavBar);
+// sticky Navigation
+let topPage = navigation.offsetTop;
+navigation.classList.remove("sticky");
+const stickyNavBar = function () {
+    if (window.scrollY > topPage) {
+        navigation.classList.add("sticky");
+    } else {
+        navigation.classList.remove("sticky");
+    }
+};
+window.addEventListener("scroll", stickyNavBar);

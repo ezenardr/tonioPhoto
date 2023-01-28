@@ -92,7 +92,7 @@
     }
     .nav-social-links-mobile{
         display: flex  !important;
-        padding-bottom: 30rem;
+        padding-bottom: 20rem;
     }
     .nav-social-links-mobile .nav-icon{
         width: 5rem;
@@ -108,7 +108,10 @@
         transform: translateX(0);
     }
     .nav-open .icon-mobile-nav-close{
-        display: block;
+        display: inline-block;
+    }
+    .btn-mobile-nav-close{
+        align-self: flex-start;
     }
     .nav-open .icon-mobile-nav-open{
         display: none;
